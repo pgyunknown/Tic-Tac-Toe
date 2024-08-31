@@ -16,5 +16,5 @@ const winPatterns=[
 boxs.forEach((box)=>{
   box.addEventListener('click',()=>{
     console.log('box');
-  });
+  })
 });

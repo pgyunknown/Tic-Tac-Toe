@@ -3,7 +3,6 @@ body{
   padding: 0px; */
   background-color: rgb(255, 219, 173);
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
   height: 70vh;
@@ -12,7 +11,8 @@ body{
   justify-content: center;
   align-items: center;
 }
-.game{
+
+.box{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -22,22 +22,10 @@ body{
   gap: 10px;
 }
 
-.box{
+.boxes{
   height : 18vmin;
   width : 18vmin;
   border: none;
   color: red;
-  border-radius: 10px;
-  font-size: xx-large;
-}
-
-.reset-b{
-  height: 50px;
-  width: 150px;
-  font-size: large;
-  font-weight: bold;
-  color: white;
-  background-color: black;
-  border: none;
-  border-radius: 10px;
+  font-size: xxx-larger;
 }

@@ -1,0 +1,17 @@
+body{
+  /* margin: 0px;
+  padding: 0px; */
+  background-color: rgb(255, 219, 173);
+  /* text-align: center; */
+}
+.container{
+  height: 70vh;
+}
+
+.box{
+  height: 60vmin;
+}
+
+.boxes{
+  height: 18vmin;
+}

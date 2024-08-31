@@ -2,6 +2,7 @@ let boxs=document.querySelector('.box');
 let resetB=document.querySelector('reset-b');
 
 let turn=true;
+
 const winPatterns=[
   [0,1,2],
   [0,3,6],
@@ -13,8 +14,9 @@ const winPatterns=[
   [6,7,8]
 ];
 
-boxs.forEach((box)=>{
+boxs.forEach((box) => {
   box.addEventListener('click',()=>{
     console.log('box');
-  });
+  })
+  
 });

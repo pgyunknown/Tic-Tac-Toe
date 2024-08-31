@@ -1,0 +1,12 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 219, 173);
+}
+.boxes{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 247, 255);
+  border: none;
+  border-radius: 5px;
+}

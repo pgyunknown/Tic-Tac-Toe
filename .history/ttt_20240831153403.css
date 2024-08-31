@@ -12,7 +12,8 @@ body{
   justify-content: center;
   align-items: center;
 }
-.game{
+
+.box{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -22,7 +23,7 @@ body{
   gap: 10px;
 }
 
-.box{
+.boxes{
   height : 18vmin;
   width : 18vmin;
   border: none;

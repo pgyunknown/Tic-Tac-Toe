@@ -1,0 +1,23 @@
+body{
+  /* margin: 0px;
+  padding: 0px; */
+  background-color: rgb(255, 219, 173);
+  text-align: center;
+}
+.container{
+  height: 70vh;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 60vmin;
+  width: 60vmin;
+}
+
+.boxes{
+  height : 18vmin;
+  width : 18vmin;
+}
