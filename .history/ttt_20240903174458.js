@@ -7,7 +7,6 @@ let msg=document.querySelector('.msg');
 const resetGame=()=>{
   turnX=true;
   enableB();
-  msgContainer.classList.add('hide')
 };
 
 const disableB=()=>{
@@ -71,8 +70,4 @@ const winner= ()=>{
     }
   }
 }
-
-
-newB.addEventListener('click',resetGame);
-resetB.addEventListener('click',resetGame);
 

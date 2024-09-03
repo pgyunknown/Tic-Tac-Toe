@@ -15,7 +15,7 @@ body{
 }
 
 main h1{
-  color: rgb(255, 1, 1);
+  color: rgb(1, 255, 10);
 }
 .game{
   display: flex;

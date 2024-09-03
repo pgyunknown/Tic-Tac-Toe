@@ -3,27 +3,6 @@ let resetB=document.querySelector('.reset-b');
 let newB=document.querySelector('.new-b');
 let msgContainer=document.querySelector('.msg-container');
 let msg=document.querySelector('.msg');
-
-const resetGame=()=>{
-  turnX=true;
-  enableB();
-  msgContainer.classList.add('hide')
-};
-
-const disableB=()=>{
-  for(let box of boxes){
-    box.disabled=true;
-  }
-}
-
-const enableB=()=>{
-  for(let box of boxes){
-    box.disabled=false;
-    box.innerText="";
-
-  }
-}
-
 let turnX=true;
 const winPatterns=[
   [0,1,2],
@@ -53,10 +32,8 @@ boxes.forEach((box)=>{
 
 
 const showWinner=(winner)=>{
-  msg.innerText=`Congrats winner: ${winner}`;
-  msgContainer.classList.remove('hide');
-  disableB();
-};
+  msg.innerText=`Congrats winner: &{}`
+}
 const winner= ()=>{
   for (let pattern of winPatterns){
     let ps1=boxes[pattern[0]].innerText;
@@ -66,13 +43,7 @@ const winner= ()=>{
     if(ps1!='' && ps3!='' && ps3!='' ){
       if(ps1===ps2 && ps2===ps3){
         console.log("Winner",ps1);
-        showWinner(ps1);
       }
     }
   }
 }
-
-
-newB.addEventListener('click',resetGame);
-resetB.addEventListener('click',resetGame);
-
